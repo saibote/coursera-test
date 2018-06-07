@@ -1,0 +1,55 @@
+body {
+	color: #fff;
+}
+
+/** HEADER **/
+#header-nav {
+	background-color: #899;
+	border-radius: 0;
+  	border: 0;
+}
+
+.navbar-default .navbar-brand {
+	color: #fff;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+	margin-top: 10px;
+}
+
+#nav-list a {
+	color: #fff;
+}
+
+#nav-list a:hover {
+  background: #989;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+
+/* END HEADER */
+
+/* HOME PAGE */
+.container h1 {
+	color: #000;
+	margin-bottom: 35px;
+}
+
+#chicken {
+	background: #999;
+}
+/* END HOME PAGE */
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+	.row {
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+}
